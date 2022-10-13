@@ -20,6 +20,7 @@ h1 {
 
 h2 {
   font-size: 48px;
+  margin: 10px;
 }
 
 h3 {
@@ -87,14 +88,28 @@ p {
   text-decoration: underline;
 }
 @media (max-width: 600px) {
+  body {
+    margin-top: 80px;
+  }
   h1 {
     font-size: 48px;
     line-height: 1.5;
+    display: flex;
+    justify-content: center;
   }
   h2 {
     font-size: 32px;
   }
   p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 15px;
+  }
+  .primary-link {
     display: block;
+    text-align: center;
+  }
+  .lauch-link {
+    margin-bottom: 20px;
   }
 }
